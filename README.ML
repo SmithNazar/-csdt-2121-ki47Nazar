@@ -13,3 +13,10 @@ Task 6. Implement AI (FEF)
 Task 7. Implement DB (FEF)
 
 - student number - 12, student name - Nazar Koval
+
+- task 2 update
+! To build project u need a .NET Framework 4.7.2 that comes with vs studio 2019.
+! This project is using a thing called Reflection. There're two others solutions that creates
+.dll files that supposed to be in this path Synthesizer\Synthesizer\Extensions.
+I've made folder that contains that dll (Builded dlls) so u can use them without building other solutions.
+! Version number is 1.0.0.

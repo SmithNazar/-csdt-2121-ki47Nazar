@@ -20,7 +20,6 @@ namespace Synthesizer
         public List<ISynthPlugin> app_plugins;
         public int Index { get; set; }
 
-
         static List<ISynthPlugin> ReadPlugins()
         {
             List<ISynthPlugin> plugins = new List<ISynthPlugin>();

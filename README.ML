@@ -20,3 +20,6 @@ Task 7. Implement DB (FEF)
 .dll files that supposed to be in this path Synthesizer\Synthesizer\Extensions.
 I've made folder that contains that dll (Builded dlls) so u can use them without building other solutions.
 ! Version number is 1.0.0.
+- task 3 update
+! I've created tests for each note.
+It is just a test that checks if note calculation is valid. (wave calculation to be correct)

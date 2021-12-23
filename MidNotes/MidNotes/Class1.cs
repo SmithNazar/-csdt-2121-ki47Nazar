@@ -1,6 +1,7 @@
 ﻿using ISynthSounds;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,15 @@ namespace MidNotes
         public float A => 440.00f;
         public float A_S => 466.16f;
         public float B => 493.88f;
+
+        float getInfo(string Note)
+        {
+            SQLConnector conn = new SQLConnector();
+            string notes = conn.GetNotes(Note);
+            //string ff = notes[0].NoteFrequency;
+            float val = float.Parse(notes, CultureInfo.InvariantCulture.NumberFormat);
+            return val;
+        }
 
         public short[] WaveFormer(float f)
         {

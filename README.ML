@@ -25,3 +25,7 @@ I've made folder that contains that dll (Builded dlls) so u can use them without
 ! I've created tests for each note.
 It is just a test that checks if note calculation is valid. (wave calculation to be correct)
 
+- task 5 udapte
+! I've made an SQL db that has two tables with NOTEID ,NOTENAME and NOTEFREQUENCE
+! Every two projects have hepler class and SQLConnector class that allows me pull data from DB.
+! AFter everything done there's a method that assign data from DB to my class fields. 

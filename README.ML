@@ -37,3 +37,9 @@ It is just a test that checks if note calculation is valid. (wave calculation to
 !: playing notes with the pc keybord.
 !: unit test for pojects that builds dll.
 !: created GIT TAG is "synthesizer_v1.1.2_WW21515".
+
+-task 6 update
+!I've created separate proj(GettingMIDIMessages) via .net core using Melanchall.DryWetMidi NuGetPackage
+!It allows u to get massages from midi keybord (screenshot added in pullrequest comment)
+!Every button is detected, if it's keybord then there's a number of button and velosity of pushing the button
+!And there's tracking of buuton onHold and button unHold

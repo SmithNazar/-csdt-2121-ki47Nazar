@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowNotesApp", "LowNotesApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidNotes", "MidNotes\MidNotes\MidNotes.csproj", "{A18090BB-6D44-4F69-A078-66986B1F1B27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingMessagesFromMidi", "GettingMessagesFromMidi\GettingMessagesFromMidi.csproj", "{C1045E85-1F8B-472D-907D-F51227600146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A18090BB-6D44-4F69-A078-66986B1F1B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A18090BB-6D44-4F69-A078-66986B1F1B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A18090BB-6D44-4F69-A078-66986B1F1B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1045E85-1F8B-472D-907D-F51227600146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1045E85-1F8B-472D-907D-F51227600146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1045E85-1F8B-472D-907D-F51227600146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1045E85-1F8B-472D-907D-F51227600146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
